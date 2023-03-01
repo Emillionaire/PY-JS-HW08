@@ -26,7 +26,6 @@ function clickHandler (ev) {
     // Find index controller click button among all controllers
     currentControllerIndex = Array.from(controllersList).findIndex(el => el == currentController)
 
-
     // Active button switcher
     mainPartActiveClass = currentControllerElementList[currentElementIndex].className.split(' ')[0]
     fullActiveClass = mainPartActiveClass + '_active'
